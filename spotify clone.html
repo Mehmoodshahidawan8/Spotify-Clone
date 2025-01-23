@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Spotify Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img alt="Spotify logo placeholder" class="h-10 w-10" height="50" src="https://storage.googleapis.com/a1aa/image/cx1bnKWwh9aZEhBDAtxT5dueoWcaRbeIinRK8rVkBSonV4HUA.jpg" width="50"/>
+            <span class="ml-3 text-2xl font-bold">Spotify</span>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a class="hover:text-green-500" href="#">Home</a></li>
+            <li><a class="hover:text-green-500" href="#">Search</a></li>
+            <li><a class="hover:text-green-500" href="#">Your Library</a></li>
+        </ul>
+        <div class="flex items-center space-x-4">
+            <button class="bg-green-500 px-4 py-2 rounded-full">Sign Up</button>
+            <button class="bg-white text-black px-4 py-2 rounded-full">Log In</button>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="p-6">
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">Music for everyone.</h1>
+            <p class="text-lg mb-6">Millions of songs. No credit card needed.</p>
+            <button class="bg-green-500 px-6 py-3 rounded-full text-lg">Get Spotify Free</button>
+        </section>
+        <!-- Featured Playlists -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Featured Playlists</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Playlist cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/EZSrfh7KeeXbSpM7NnsfeQx0eBL6a2mTh5b52srvkYhgZFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Top Hits</h3>
+                    <p class="text-gray-400">The hottest tracks right now.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Playlist cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/EZSrfh7KeeXbSpM7NnsfeQx0eBL6a2mTh5b52srvkYhgZFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Chill Vibes</h3>
+                    <p class="text-gray-400">Relax and unwind with these tunes.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Playlist cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/EZSrfh7KeeXbSpM7NnsfeQx0eBL6a2mTh5b52srvkYhgZFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Workout</h3>
+                    <p class="text-gray-400">Get pumped with these high-energy tracks.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Playlist cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/EZSrfh7KeeXbSpM7NnsfeQx0eBL6a2mTh5b52srvkYhgZFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Throwback</h3>
+                    <p class="text-gray-400">Classic hits from the past.</p>
+                </div>
+            </div>
+        </section>
+        <!-- New Releases -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">New Releases</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Album cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/X4Nom5eaO8RNRakZXOY4yrmeGt4XfeeYCem2pKynLv0BaFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Album Title 1</h3>
+                    <p class="text-gray-400">Artist Name</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Album cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/X4Nom5eaO8RNRakZXOY4yrmeGt4XfeeYCem2pKynLv0BaFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Album Title 2</h3>
+                    <p class="text-gray-400">Artist Name</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Album cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/X4Nom5eaO8RNRakZXOY4yrmeGt4XfeeYCem2pKynLv0BaFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Album Title 3</h3>
+                    <p class="text-gray-400">Artist Name</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Album cover image placeholder" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/X4Nom5eaO8RNRakZXOY4yrmeGt4XfeeYCem2pKynLv0BaFeDKA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold">Album Title 4</h3>
+                    <p class="text-gray-400">Artist Name</p>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-gray-800 p-6 mt-12">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img alt="Spotify logo placeholder" class="h-10 w-10" height="50" src="https://storage.googleapis.com/a1aa/image/cx1bnKWwh9aZEhBDAtxT5dueoWcaRbeIinRK8rVkBSonV4HUA.jpg" width="50"/>
+                    <span class="ml-3 text-2xl font-bold">Spotify</span>
+                </div>
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+                    <li><a class="hover:text-green-500" href="#">Legal</a></li>
+                    <li><a class="hover:text-green-500" href="#">Privacy Center</a></li>
+                    <li><a class="hover:text-green-500" href="#">Privacy Policy</a></li>
+                    <li><a class="hover:text-green-500" href="#">Cookies</a></li>
+                    <li><a class="hover:text-green-500" href="#">About Ads</a></li>
+                </ul>
+            </div>
+            <div class="mt-6 text-center text-gray-400">
+                <p>© 2023 Spotify Clone. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
